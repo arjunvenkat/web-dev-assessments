@@ -55,9 +55,40 @@
    print_hello ("Jeff", "Cohen")
    </pre>
 
+8. Explain what is going on under the hood when the following method is called
+   def add_numbers(first_num, second_num, third_num)
+     sum = x + y + z
+     return sum
+   end
+
+   add_numbers(3, 7, 8)
+
+9. What is the output of the following method. How do you know?
+
+   def add_numbers(first_num, second_num, third_num)
+     sum = first_num + second_num + third_num
+     puts sum
+     return 15
+   end
+
+   add_numbers(3, 7, 8)
+
+
+9. What gets saved into x?
+   x = puts "hello"
+
+
+9. What is the output of the following method. How do you know?
+
+   def add_numbers(first_num, second_num, third_num)
+     first_num + second_num + third_num
+   end
+
+   add_numbers(3, 7, 8)
+
 ### Good to know:
 
-8. What are the benefits to using a method in script 2 compared to  not using a method in script 1. Are there any drawbacks to using a method?
+9. What are the benefits to using a method in script 2 compared to  not using a method in script 1. Are there any drawbacks to using a method?
 
    #### Script 1
    <pre>
