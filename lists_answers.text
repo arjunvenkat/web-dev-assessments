@@ -1,0 +1,38 @@
+Possible answers for the lists self-assessment
+
+1) letters[1]
+
+
+2)
+letters.push("d")
+-or-
+letters << "d"
+
+
+3) The array is on top, the hash is on bottom
+
+
+4) letter_hash["b"]
+
+
+5) letter_hash["d"] = 4
+
+
+6) Arrays are organized by indicies, hashes are organized by keys. Or, arrays are organized by order and hashes are organized by keys.
+
+7) letters[2][2]
+
+
+8) letter_hash["b"]["z"]
+
+
+9) Some of these answers may differ depending on how you think about the problem. See me if you have any conflicts
+  1. hash
+  2. array
+  3. array
+  4. hash
+  5. array
+  6. array
+  7. hash
+
+10) staff[0]["address"]["neighborhood"]

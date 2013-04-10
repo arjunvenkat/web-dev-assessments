@@ -1,0 +1,33 @@
+Possible answers to the methods self-assessment
+
+1)
+def greeting
+  puts "Hello... you"
+end
+
+2)
+def personal_greeting(name)
+  puts "hello #{name}"
+end
+
+3) You need to call the method with:
+print_hello
+
+4)
+print_hello("Arjun")
+-or-
+print_hello "Arjun"
+
+5) 'zebra' and 'name' don't match up. It would make the most sense to change 'zebra' into 'name'
+
+6) 'name' doesn't refer to either of the arguments to the method.  It should be changed to 'first_name' and 'last_name'
+
+7) There is a space between print_hello and (  in the method call
+
+8) Some benefits:
+- the code is a bit shorter
+- you can change code in one place and see the effects in many other places
+
+Possible drawbacks:
+- the code may be a bit less readable
+
