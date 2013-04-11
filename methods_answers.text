@@ -1,5 +1,7 @@
 Possible answers to the methods self-assessment
 
+BASICS
+
 1)
 def greeting
   puts "Hello... you"
@@ -35,7 +37,11 @@ print_hello "Arjun"
 12) nil gets saved into x. Since there is no return statement, the last line is evaluated and then returned. puts always evaluates to nil, so the return value of the method will always be nil.
 
 
-13) Some benefits:
+
+
+GOOD TO KNOW
+
+1) Some benefits:
 - the code is a bit shorter
 - you can change code in one place and see the effects in many other places
 

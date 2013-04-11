@@ -58,16 +58,18 @@
 
 
 8. Explain what is going on under the hood when the following method is called. What is the output of the following method call?
+   <pre>
    def add_numbers(first_num, second_num, third_num)
      sum = first_num + second_num + third_num
      return sum
    end
 
    add_numbers(3, 7, 8)
-
+   </pre>
 
 9. What is the output of the following method call? How do you know?
 
+   <pre>
    def add_numbers(first_num, second_num, third_num)
      sum = first_num + second_num + third_num
      puts sum
@@ -75,35 +77,39 @@
    end
 
    add_numbers(3, 7, 8)
-
+   </pre>
 
 9. What is the output of the following method call? How do you know?
 
+   <pre>
    def add_numbers(first_num, second_num, third_num)
      first_num + second_num + third_num
    end
 
    add_numbers(3, 7, 8)
-
+   </pre>
 
 9. What gets saved into x?
 
+   <pre>
    def add_numbers(first_num, second_num, third_num)
      sum =  first_num + second_num + third_num
      return sum
    end
 
    x = add_numbers(3,7,8)
+   </pre>
 
 9. What gets saved into x?
 
+   <pre>
    def add_numbers(first_num, second_num, third_num)
      sum =  first_num + second_num + third_num
      puts sum
    end
 
    x = add_numbers(3,7,8)
-
+   </pre>
 
 ### Good to know:
 
