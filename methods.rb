@@ -41,8 +41,37 @@
 
 #    print_hello ("Jeff", "Cohen")
 
+# what is the return value of the following method call
+   def add_numbers(num1, num2)
+     sum = num1 + num2
+     return sum
+   end
 
+   add_numbers(1,2)
 
+# what is the return value of the following method call
+   # def add_numbers(num1, num2)
+   #   sum = num1 + num2
+   #   sum
+   # end
+
+   # add_numbers(1,2)
+
+# what is the return value of the following method call
+   # def add_numbers(num1, num2)
+   #   sum = num1 + num2
+   #   puts sum
+   # end
+
+   # add_numbers(1,2)
+
+# what will get saved into the 'answer' variable?
+   # def add_numbers(num1, num2)
+   #   sum = num1 + num2
+   #   puts sum
+   # end
+
+   # answer = add_numbers(1,2)
 
 # What are the benefits to using a method in script 2 compared to  not using a method in script 1. Are there any drawbacks to using a method?
 #    script 1

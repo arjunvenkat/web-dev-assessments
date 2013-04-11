@@ -45,6 +45,7 @@
    print_hello("Jeff", "Cohen")
    </pre>
 
+
 7. If you want to the following script to print "hello Jeff Cohen" to the screen, what should be changed?
 
    <pre>
@@ -55,15 +56,17 @@
    print_hello ("Jeff", "Cohen")
    </pre>
 
-8. Explain what is going on under the hood when the following method is called
+
+8. Explain what is going on under the hood when the following method is called. What is the output of the following method call?
    def add_numbers(first_num, second_num, third_num)
-     sum = x + y + z
+     sum = first_num + second_num + third_num
      return sum
    end
 
    add_numbers(3, 7, 8)
 
-9. What is the output of the following method. How do you know?
+
+9. What is the output of the following method call? How do you know?
 
    def add_numbers(first_num, second_num, third_num)
      sum = first_num + second_num + third_num
@@ -74,17 +77,33 @@
    add_numbers(3, 7, 8)
 
 
-9. What gets saved into x?
-   x = puts "hello"
-
-
-9. What is the output of the following method. How do you know?
+9. What is the output of the following method call? How do you know?
 
    def add_numbers(first_num, second_num, third_num)
      first_num + second_num + third_num
    end
 
    add_numbers(3, 7, 8)
+
+
+9. What gets saved into x?
+
+   def add_numbers(first_num, second_num, third_num)
+     sum =  first_num + second_num + third_num
+     return sum
+   end
+
+   x = add_numbers(3,7,8)
+
+9. What gets saved into x?
+
+   def add_numbers(first_num, second_num, third_num)
+     sum =  first_num + second_num + third_num
+     puts sum
+   end
+
+   x = add_numbers(3,7,8)
+
 
 ### Good to know:
 

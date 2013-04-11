@@ -24,7 +24,18 @@ print_hello "Arjun"
 
 7) There is a space between print_hello and (  in the method call
 
-8) Some benefits:
+8) The interepreter sees that add_numbers is a method definition that takes in three objects. It checks the syntax of the add_numbers method contents but doesn't run any of the code. It moves down to the add_numbers call and checks that it is getting three arguments. It moves back up to the add_numbers method definition and does a shadow assignment, making first_num = 3, second_num = 7, and third_num = 8. It then adds all three numbers and saves the result into a variable called sum. It then returns sum as the output to the method. add_numbers(3,7,8) boils down to a return value of 18, but nothing is printed to the screen because no puts method was placed before add_numbers(3,7,8).
+
+9) 15 - The keyword 'return' always specifies the output of a method
+
+10) 18 - If no return keyword is specified, the last line of the method is evaluated then returned
+
+11) 18 gets saved into x, since 18 is the returned value of add_numbers(3,7,8)
+
+12) nil gets saved into x. Since there is no return statement, the last line is evaluated and then returned. puts always evaluates to nil, so the return value of the method will always be nil.
+
+
+13) Some benefits:
 - the code is a bit shorter
 - you can change code in one place and see the effects in many other places
 
