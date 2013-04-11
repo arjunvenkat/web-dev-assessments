@@ -36,3 +36,5 @@ letters << "d"
   7. hash
 
 10) staff[0]["address"]["neighborhood"]
+
+11) facebook_data['data'][4]['type']
