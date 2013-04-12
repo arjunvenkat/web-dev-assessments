@@ -1,3 +1,4 @@
-   4.times do |count|
+   seasons = ['spring', 'summer', 'fall', 'winter']
+   seasons.each |count|
      puts count
    end
