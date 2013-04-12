@@ -62,7 +62,7 @@
    hello 4
    </pre>
 
-   How could you change the following script?
+   How could you edit the following script?
 
    <pre>
    5.times do
@@ -80,7 +80,7 @@
    </pre>
 
 
-1. What is the difference between the block variable in the following two loops?
+1. What is the difference between the block variables in the following two loops?
 
    <pre>
    languages =['English', 'Spanish', 'Chinese', 'Tamil', 'Russian']
