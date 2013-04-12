@@ -15,9 +15,13 @@
 1. Change the loop to produce the following output:
 
    \#=> 1
+
    \#=> 2
+
    \#=> 3
+
    \#=> 4
+
    (remember #=> just refers to output)
 
    <pre>
@@ -54,14 +58,23 @@
    </pre>
 
 1. Specify the state of each variable at the end of each line each time through the loop.
+
    ex)
+
    _Loop 1:_
+
    line 1: x = 3, y = 5
+
    line 2: x = 3, y = 7
+
    line 3: x = 3, y = 9
+
    _Loop 2:_
+
    line 1: x = 4, y = 5
+
    line 2: x = 4, y = 7
+
    line 3: x = 4, y = 9
 
 
@@ -82,10 +95,15 @@
 
 
 1. If you wanted code to produce the following output:
+
    \#=> hello 0
+
    \#=> hello 1
+
    \#=> hello 2
+
    \#=> hello 3
+
    \#=> hello 4
 
    how could you change the following script?
@@ -139,8 +157,11 @@
 1. Create at least 3 different loops to produce the following output using colors_array
 
    \#=> red
+
    \#=> blue
+
    \#=> green
+
    \#=> orange
 
    <pre>
