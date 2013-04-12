@@ -13,17 +13,15 @@
    </pre>
 
 
-1. Change the loop to produce the following output:
+1. If you want to produce the following output:
+   <pre>
+   1
+   2
+   3
+   4
+   </pre>
 
-   \#=> 1
-
-   \#=> 2
-
-   \#=> 3
-
-   \#=> 4
-
-   (remember #=> just refers to output)
+   How could you edit the following script?
 
    <pre>
    4.times do |count|
@@ -55,17 +53,15 @@
 
 1. If you wanted to produce the following output:
 
-   \#=> hello 0
+   <pre>
+   hello 0
+   hello 1
+   hello 2
+   hello 3
+   hello 4
+   <pre>
 
-   \#=> hello 1
-
-   \#=> hello 2
-
-   \#=> hello 3
-
-   \#=> hello 4
-
-   how could you change the following script?
+   How could you change the following script?
 
    <pre>
    5.times do
@@ -123,22 +119,17 @@
 1. Specify the state of each variable at the end of each line each time through the loop.
 
    ex)
-
+   <pre>
    _Loop 1:_
-
    line 1: x = 3, y = 5
-
    line 2: x = 3, y = 7
-
    line 3: x = 3, y = 9
 
    _Loop 2:_
-
    line 1: x = 4, y = 5
-
    line 2: x = 4, y = 7
-
    line 3: x = 4, y = 9
+   </pre>
 
    <pre>
    size = 5
@@ -151,7 +142,9 @@
 
 
 1. What are the values of each variable other than item_price_array in the following loop at:
+
    a) the end of the third line of the loop, during round 3?
+
    b) the end of the first line of the loop, during round 4?
 
    <pre>
@@ -169,13 +162,13 @@
 
 1. Create at least 3 different loops to produce the following output using colors_array
 
-   \#=> red
-
-   \#=> blue
-
-   \#=> green
-
-   \#=> orange
+   output:
+   <pre>
+   red
+   blue
+   green
+   orange
+   </pre>
 
    <pre>
    colors_array = ['red', 'blue', 'green', 'orange']
