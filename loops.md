@@ -14,10 +14,10 @@
 
 1. Change the loop to produce the following output:
 
-   #=> 1
-   #=> 2
-   #=> 3
-   #=> 4
+   \#=> 1
+   \#=> 2
+   \#=> 3
+   \#=> 4
    (remember #=> just refers to output)
 
    <pre>
@@ -82,11 +82,11 @@
 
 
 1. If you wanted code to produce the following output:
-   #=> hello 0
-   #=> hello 1
-   #=> hello 2
-   #=> hello 3
-   #=> hello 4
+   \#=> hello 0
+   \#=> hello 1
+   \#=> hello 2
+   \#=> hello 3
+   \#=> hello 4
 
    how could you change the following script?
 
@@ -138,10 +138,10 @@
 
 1. Create at least 3 different loops to produce the following output using colors_array
 
-   #=> red
-   #=> blue
-   #=> green
-   #=> orange
+   \#=> red
+   \#=> blue
+   \#=> green
+   \#=> orange
 
    <pre>
    colors_array = ['red', 'blue', 'green', 'orange']
