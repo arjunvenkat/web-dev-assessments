@@ -14,6 +14,7 @@
 
 
 1. If you want to produce the following output:
+
    <pre>
    1
    2
@@ -120,12 +121,12 @@
 
    ex)
    <pre>
-   _Loop 1:_
+   Loop 1:
    line 1: x = 3, y = 5
    line 2: x = 3, y = 7
    line 3: x = 3, y = 9
 
-   _Loop 2:_
+   Loop 2:
    line 1: x = 4, y = 5
    line 2: x = 4, y = 7
    line 3: x = 4, y = 9
