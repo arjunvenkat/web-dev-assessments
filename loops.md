@@ -60,7 +60,7 @@
    hello 2
    hello 3
    hello 4
-   <pre>
+   </pre>
 
    How could you change the following script?
 
