@@ -1,3 +1,5 @@
+### Basics:
+
 1. What is an efficient way to run the command puts "hello" five times?
 
 
@@ -101,7 +103,7 @@
 
    <pre>
    colors_array = ['red', 'blue', 'green', 'orange']
-   colors_array.each do |block_var|
+   colors\_array.each do |block_var|
      puts block_var
    end
    </pre>
@@ -113,6 +115,7 @@
    count = 0
    5.times do
      puts count
+     count += 1
    end
    </pre>
 
@@ -142,19 +145,45 @@
    </pre>
 
 
-1. What are the values of each variable other than item_price_array in the following loop at:
+1. Will the final puts command work in the following script? Why or why not?
+
+   <pre>
+   5.times do
+     x = 3
+     puts x
+   end
+
+   puts x
+   </pre>
+
+
+1. Will the final puts command work in the following script? Why or why not?
+
+   <pre>
+   x = 0
+   5.times do
+     x = 3
+     puts x
+   end
+
+   puts x
+   </pre>
+
+### Good to know:
+
+1. What are the values of each variable other than item\_price\_array in the following loop at:
 
    a) the end of the third line of the loop, during round 3?
 
    b) the end of the first line of the loop, during round 4?
 
    <pre>
-   item_price_array = [10, 20, 100, 50]
+   item\_price_array = [10, 20, 100, 50]  # 11, 11/ 22, 33/ 110, 143/ 55, 143
    sales_tax = 0.1
    total = 0
 
-   item_price_array.each do |item_price|
-     subtotal = item_price + item_price * sales_tax
+   item\_price\_array.each do |item_price|
+     subtotal = item\_price + item\_price * sales_tax
      total = total + subtotal
      puts "Your total so far is #{total}"
    end

@@ -1,3 +1,7 @@
+Possible solutions for the loops self-assessment
+
+
+Basics:
 
 1)
 5.times do
@@ -5,4 +9,185 @@
 end
 
 
-2)
+2) the .each method
+
+
+3)
+0
+1
+2
+3
+
+
+4)
+4.times do |count|
+  puts (count + 1)
+end
+
+
+5) You can't call the .times method on an array.  What you could do is staff.length.times, or even better, staff.each
+
+
+6) The name 'count' doesn't make sense for the block variable, since the array is a list of seasons, not a list of counts. 'season' would be a better choice
+
+
+7)
+count = 0
+5.times do
+  puts "hello #{count}"
+end
+
+-or
+
+5.times do |count|
+  puts "hello #{count}"
+end
+
+
+8) The .times method is what decides how the block variable is set. The times method keeps track of the loop number, with 0 referring to the first loop, and assigns that number to the block variable at the beginning of each loop.
+
+
+9) Since the first loop is using the .times method, the block variables for each loop refer to the count of the loop. The values of the block variables will be:
+
+Loop 1: 0
+Loop 2: 1
+Loop 3: 2
+Loop 4: 3
+Loop 5: 4
+
+The second loop is using the .each method, so the block variables refer to specific elements in the array that .each is called on. The values of the block variables will be:
+
+Loop 1: "English"
+Loop 2: "Spanish"
+Loop 3: "Chinese"
+Loop 4: "Tamil"
+Loop 5: "Russian"
+
+
+10) Since you're looping through an array of colors, the block variable should probably be 'color'
+
+
+11) Assuming you wanted to count to increase every time through the loop, the following code would be more efficient:
+
+5.times do |count|
+  puts count
+end
+
+
+12) For following loop:
+
+size = 5
+count = 0
+3.times do
+ puts "Count: #{count} and Size: #{size}"   # line 1
+ count = count + 1                          # line 2
+end
+
+The value of each variable at the end of each line for each cycle is:
+
+Cycle 1
+At the end of line 1:   size is 5, count is 0
+At the end of line 2:   size is 5, count is 1
+
+Cycle 2
+At the end of line 1:   size is 5, count is 1
+At the end of line 2:   size is 5, count is 2
+
+Cycle 3
+At the end of line 1:   size is 5, count is 2
+At the end of line 2:   size is 5, count is 3
+
+the loop completes after 3 cycles
+
+
+13) It will not work, because x is defined inside the loop and will die after the loop is completed
+
+
+14) It will work, because x is defined outside of the loop, so it will live once the loop is completed
+
+
+
+Good to know:
+
+1)
+  a) sales_tax is still 0.1, subtotal is 110, total is 143
+  b) sales_tax is still 0.1, subtotal is 55, total is 143 still
+
+
+2) Below are six possible options.
+
+colors_array = ['red', 'blue', 'green', 'orange']
+4.times do |count|
+  puts colors_array[count]
+end
+
+colors_array = ['red', 'blue', 'green', 'orange']
+colors_array.length.times do |count|
+  puts colors_array[count]
+end
+
+colors_array = ['red', 'blue', 'green', 'orange']
+colors_array.each_index do |index|
+  puts colors_array[index]
+end
+
+colors_array = ['red', 'blue', 'green', 'orange']
+colors_array.each do |color|
+  puts color
+end
+
+colors_array = ['red', 'blue', 'green', 'orange']
+colors_array.each { |color| puts color }
+
+colors_array = ['red', 'blue', 'green', 'orange']
+colors_array.each_with_index do |color, index|
+  puts color
+end
+
+
+3) Using .each_index can improve the script:
+
+staff = ['kelsey', 'arvin', 'vince', 'dave', 'darby']
+
+staff.each_with_index do |staff_member, index|
+   puts "#{staff_member} is number #{index + 1} in the list"
+end
+
+
+4) For the following loop:
+
+x = 0
+4.times do |count|
+  x += 1                 # line 1
+  count = count + 1      # line 2
+  x = 4                  # line 3
+  puts count             # line 4
+end
+
+the value of each variable at the end of each line during each cycle is:
+
+Cycle 1
+Line 1: x is 1, count is 0
+Line 2: x is 1, count is 1
+Line 3: x is 4, count is 1
+Line 4: x is 4, count is 1
+
+Cycle 2
+Line 1: x is 5, count is 1
+Line 2: x is 5, count is 2
+Line 3: x is 4, count is 2
+Line 4: x is 4, count is 2
+
+Cycle 3
+Line 1: x is 5, count is 2
+Line 2: x is 5, count is 3
+Line 3: x is 4, count is 3
+Line 4: x is 4, count is 3
+
+Cycle 4
+Line 1: x is 5, count is 3
+Line 2: x is 5, count is 4
+Line 3: x is 4, count is 4
+Line 4: x is 4, count is 4
+
+
