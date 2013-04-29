@@ -76,11 +76,11 @@
 
 # possible sol a)
 
-# puts "Enter a sentence:"
-# input = gets.chomp
+puts "Enter a sentence:"
+input = gets.chomp
 
-# char_array = input.chars
-# puts char_array.uniq
+char_array = input.chars
+puts char_array.uniq
 
 
 # possible sol b)
